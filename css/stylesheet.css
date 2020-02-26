@@ -329,7 +329,7 @@ margin-left: 0;
 ===================================== */
 
 .p-skill{
-    padding: 100px 0;
+    padding: 40px 0;
 }
 
 @media screen and (max-width: 576px) {
@@ -356,12 +356,18 @@ margin-left: 0;
 @media screen and (max-width: 1000px) {
 .p-skill_item {
     width: 50%;
+}    
+.p-skill_item:nth-child(-n+2){
+    padding-bottom: 30px;
 }
 }
 
 @media screen and (max-width: 576px) {
 .p-skill_item {
     width: 100%;
+}
+.p-skill_item:nth-child(-n+3){
+    padding-bottom: 30px;
 }
 }
 
